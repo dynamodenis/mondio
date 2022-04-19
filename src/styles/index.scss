@@ -1,0 +1,55 @@
+@media(max-width:1520px) {
+    .left-svg {
+        display: none;
+    }
+}
+
+/* small css for the mobile nav close */
+#nav-mobile-btn.close span:first-child {
+    transform: rotate(45deg);
+    top: 4px;
+    position: relative;
+    background: #a0aec0;
+}
+
+#nav-mobile-btn.close span:nth-child(2) {
+    transform: rotate(-45deg);
+    margin-top: 0px;
+    background: #a0aec0;
+}
+
+h3 {
+    margin: 40px 0 0;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  a {
+    color: #42b983;
+  }
+
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  nav {
+    padding: 30px;
+  
+    a {
+      font-weight: bold;
+      color: #2c3e50;
+  
+      &.router-link-exact-active {
+        color: #42b983;
+      }
+    }
+  }
